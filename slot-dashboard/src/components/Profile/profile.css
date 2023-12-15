@@ -1,0 +1,133 @@
+.profile-container
+{
+    width: 100%;
+    height: 100%;
+}
+.profile-header
+{
+    font-size: 20px;
+    font-weight: 500;
+}
+.profile-img
+{
+}
+.profile-img img
+{
+    width: 100%;
+    border-radius: 54%;
+    height: 100%;
+    position: absolute;
+}
+.profile-img-container
+{
+    margin-top: 2%;
+    width: 8.5%;
+    height: 22%;
+    position: relative;
+}
+.edit-button
+{
+    height: 26.5%;
+    width: 26%;
+    margin-top: 68%;
+    margin-left: 76%;
+    position: absolute;
+}
+.edit-button img
+{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.edit-pro-input-container
+{
+    display: flex;
+    width: 43%;
+    margin-top: 3%;
+    justify-content: space-between;
+}
+.edit-pro-input-container span:nth-child(1)
+{
+    width: 50%;
+}
+.edit-pro-input-container span:nth-child(2)
+{
+    width: 43%;
+}
+.input-profile
+{
+    width: 43%;
+    margin-top: 3%;
+}
+.profile-update-button
+{
+    height: 20vh;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.profile-update-button span:nth-child(1)
+{
+    padding: 0.6% 2%;
+    background: #5162F6;
+    border-radius: 5px;
+    margin-right: 3%;
+    color: white;
+    cursor: pointer;
+}
+.profile-update-button span:nth-child(2)
+{
+    padding: 0.6% 0%;
+    color: #626D8A;
+    cursor: pointer;
+}
+.profile-container .form-control:focus
+{
+    box-shadow: none;
+    border:var(--bs-border-width) solid #dee2e6!important;
+}
+.user-profile-location
+{
+    width: 52%!important;
+    height: 5.6vh!important;
+    display: flex!important;
+    justify-content: flex-end!important;
+    position: relative!important;
+    margin-top: 1%!important;
+    margin-bottom: 0%!important;
+}
+.user-profile-location .span-search
+{
+    width: 84%!important;
+    border: var(--bs-border-width) solid var(--bs-border-color)!important;
+    padding: 0% 3%!important;
+}
+.user-location-dropdown
+{
+    width: 84%;
+    margin-top: 13%;
+    margin-left: 0%;
+    z-index: 1;
+}
+.file-upload
+{
+    content-visibility: hidden;
+    border: none;
+    position: absolute;
+    margin-top: -107%;
+    background: transparent;
+    z-index: 0;
+    box-shadow: none;
+    height: 5vh;
+}
+.edit-button .form-control:focus
+{
+    content-visibility: hidden!important;
+    border: none!important;
+    position: absolute;
+    margin-top: -107%;
+    background: transparent!important;
+    z-index: 0;
+    box-shadow: none!important;
+    height: 5vh;
+}

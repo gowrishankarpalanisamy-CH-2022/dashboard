@@ -1,0 +1,30 @@
+.event-content-header
+{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 2%;
+    text-align: left;
+}
+.event-content-selection
+{
+    font-size: 16px;
+    color: #626D8A;
+    font-weight: 500;
+    text-align: left;
+}
+.event-content-selection img
+{
+    cursor: pointer;
+}
+.meeting-card-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.event-name-card{
+    text-align: left;
+    margin-left: -4px;
+    margin-top: 7px;
+}
